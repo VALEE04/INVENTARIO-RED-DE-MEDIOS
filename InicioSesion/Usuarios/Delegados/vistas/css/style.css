@@ -1,0 +1,329 @@
+/* Estilo para los enlaces de navegación */
+.nav-link{
+    color: #FFFFFF;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+    background-color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilo para el contenedor principal */
+.main {
+    align-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px #979797;
+}
+
+/* Estilo para otro contenedor principal */
+.main1 {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 500px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px #979797;
+    align-content: center;
+}
+
+/* Estilo para el texto de la clase 'sign' */
+.sign {
+    color: #39A900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilo para los campos de entrada de la clase 'un' */
+.un {
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilo para el formulario de la clase 'form1' */
+form.form1 {
+    padding-top: 40px;
+}
+
+/* Estilo para los campos de entrada de la clase 'pass' */
+.pass {
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Estilo para los campos de entrada cuando están enfocados */
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+/* Estilo para el botón de envío */
+.submit {
+    align-self: center !important; 
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #39A900 , #39A900);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 10px;
+}
+
+/* Estilo para el enlace de la clase 'forgot' */
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #ff671d;
+    padding-top: 15px;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #39A900;
+    text-decoration: none;
+}
+
+/* Estilo para la clase 'notification' */
+.notification{
+    text-align: center;
+    color:red;
+}
+
+/* Estilo para pantallas pequeñas */
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+
+/* Estilo para la clase 'busqueda' */
+.busqueda{
+    width: 750px;
+    margin-top:50px;
+}
+
+/* Estilo para la clase 'llave' */
+.llave{
+    margin-top:-10px;
+    margin-left:200px;
+}
+
+/* Estilo para la clase 'uno' */
+.uno{
+    margin-left:150px;
+    width: 250px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'dos' */
+.dos{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'uno11' */
+.uno11{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'dos22' */
+.dos22{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para el formulario de registrar usuario */
+.uno1{
+    margin-left:50px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'dos2' */
+.dos2{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para el formulario de actualizar cables */
+.titulo1{
+    margin-left: 90px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+/* Estilo para el formulario de nuevas categorías */
+.tres{
+    margin-left:50px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'cuatro' */
+.cuatro{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'quinto' */
+.quinto{ 
+    margin-left:50px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'seis' */
+.seis{
+    margin-left:106px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'siete' */
+.siete{
+    margin-left:50px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'ocho' */
+.ocho{
+    margin-left:90px;
+    width: 400px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'nueve' */
+.nueve{
+    margin-left:90px;
+    width: 250px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'diez' */
+.diez{
+    margin-left:50px;
+    width: 200px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'once' */
+.once{
+    margin-left:68px;
+    width: 250px;
+    margin-top:20px;
+}
+
+/* Estilo para la clase 'notificationis-dangeris-light' */
+.notificationis-dangeris-light{
+    margin-top: 500px;
+}
+
+/* Estilo para la clase 'actualizartexto' */
+.actualizartexto{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Estilo para el pie de página principal */
+.main-footer{
+    text-align: center;   
+}
+
+/* Estilo para ocultar y mostrar */
+#viewPassword{
+    cursor:pointer;
+}
+
+#viewPassword1{
+    cursor:pointer;
+}
+
+/* Estilo para la clase 'espacio' */
+.espacio{
+    margin-left:45px;
+}
+
+/* Estilo para la clase 'ocultar1' */
+.ocultar1{
+    margin-left:420px;
+    margin-top: 20px;
+}
+
+/* Estilo para el ID 'clickme' */
+#clickme{
+    margin-left: -40px;
+}
+
+/* Estilo para el ID 'clickme1' */
+#clickme1{
+    margin-top: -100px;
+    margin-left: 910px;
+}
+
+/* Estilo para el ID 'clickme2' */
+#clickme2{
+    margin-top: -52px;
+    margin-left: 910px;
+}
+
+/* Estilo para pantallas pequeñas */
+@media only screen and (max-width: 995px) {
+    .img {
+        display: none;
+    }
+}
+
+/* Estilo para la clase 'combobox1' */
+.combobox1{
+    margin-left:80px;
+}
+
+/* Estilo para la clase 'combobox' */
+.combobox{
+    margin-left:80px; 
+}
+
+/* Estilo para el ID 'foto' */
+#foto{
+    margin-left:320px;
+    margin-top: 20px;
+}
+
+/* Estilo para la clase 'item' */
+.item{
+    color: darkred;
+}
+

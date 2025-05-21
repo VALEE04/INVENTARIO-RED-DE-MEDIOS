@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(img/FONDO5.png) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedor {
+	width: 350px;
+	background: rgba(0, 0, 0, 0.9); /* Fondo más oscuro para contraste */
+	color: #fff;
+	padding: 50px 30px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	position: relative;
+}
+
+.contenedor .logo {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: white; /* Fondo blanco para resaltar */
+	padding: 5px;
+}
+
+.contenedor h1 {
+	margin-top: 50px; /* Espacio para el logo */
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+.contenedor label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px; /* Aumentamos la separación entre label e input */
+    font-size: 14px;
+}
+
+.contenedor input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px; /* Aumentamos el padding interno */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Asegura que padding no afecte el tamaño total */
+}
+
+.contenedor input:focus {
+    border-color: #39A900;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Ajustamos los botones también */
+.contenedor input[type="submit"],
+.contenedor input[type="reset"] {
+    height: 45px;
+    margin-top: 10px; /* Más espacio arriba de los botones */
+    font-size: 18px;
+}
+
+.contenedor input[type="submit"] {
+	background: linear-gradient(90deg, #4CAF50, #2E7D32);
+	color: white;
+}
+
+.contenedor input[type="reset"] {
+	background: linear-gradient(90deg, #FF5252, #D50000);
+	color: white;
+}
+
+.contenedor input[type="submit"]:hover,
+.contenedor input[type="reset"]:hover {
+	transform: scale(1.05);
+}
+
+.contenedor input[type="submit"]:active,
+.contenedor input[type="reset"]:active {
+	transform: scale(0.98);
+}
